@@ -35,6 +35,5 @@ function encontrarPalabraUnica() {
             palabraUnica = palabra;
         }
     });
-
     document.getElementById("p3-output").innerText = "Palabra con más caracteres únicos: " + palabraUnica;
 }
