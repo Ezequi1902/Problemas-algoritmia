@@ -1,6 +1,6 @@
 function invertirPalabras() {
     var input = document.getElementById("p1-input").value;
-    var palabras = input.split(" ");
+    var palabras = input.split("");
     var resultado = palabras.reverse().join(" ");
     document.getElementById("p1-output").innerText = resultado;
 }
